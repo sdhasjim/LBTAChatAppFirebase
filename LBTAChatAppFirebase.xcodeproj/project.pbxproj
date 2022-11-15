@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2990EA2923CF0F009C571B /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2990E92923CF0F009C571B /* MainMessagesView.swift */; };
 		3F37210A291D4B0800D58464 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F372109291D4B0800D58464 /* ImagePicker.swift */; };
 		3F3BDB3629111719005956DB /* LBTAChatAppFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BDB3529111719005956DB /* LBTAChatAppFirebaseApp.swift */; };
 		3F3BDB3829111719005956DB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BDB3729111719005956DB /* LoginView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2990E92923CF0F009C571B /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
 		3F372109291D4B0800D58464 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		3F3BDB3229111719005956DB /* LBTAChatAppFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBTAChatAppFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3BDB3529111719005956DB /* LBTAChatAppFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBTAChatAppFirebaseApp.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2990E62923CEC5009C571B /* MainMessages */ = {
+			isa = PBXGroup;
+			children = (
+				3F2990E92923CF0F009C571B /* MainMessagesView.swift */,
+			);
+			path = MainMessages;
+			sourceTree = "<group>";
+		};
 		3F3BDB2929111719005956DB = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		3F3BDB3429111719005956DB /* LBTAChatAppFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				3F2990E62923CEC5009C571B /* MainMessages */,
 				3F3BDB3529111719005956DB /* LBTAChatAppFirebaseApp.swift */,
 				3F3BDB3729111719005956DB /* LoginView.swift */,
 				3F372109291D4B0800D58464 /* ImagePicker.swift */,
@@ -159,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F37210A291D4B0800D58464 /* ImagePicker.swift in Sources */,
+				3F2990EA2923CF0F009C571B /* MainMessagesView.swift in Sources */,
 				3F3BDB3829111719005956DB /* LoginView.swift in Sources */,
 				3F3BDB3629111719005956DB /* LBTAChatAppFirebaseApp.swift in Sources */,
 			);
