@@ -19,6 +19,7 @@
 		3F7610CD293CCDD200665A75 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7610CC293CCDD200665A75 /* FirebaseManager.swift */; };
 		3F7610D0293CD56300665A75 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7610CF293CD56300665A75 /* SDWebImageSwiftUI */; };
 		3FCCD157291954B200E59B39 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FCCD156291954B100E59B39 /* GoogleService-Info.plist */; };
+		3FDA08B3293F87E7003DF219 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA08B2293F87E7003DF219 /* ChatUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3F3BDB3C2911171A005956DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F7610CC293CCDD200665A75 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		3FCCD156291954B100E59B39 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FDA08B2293F87E7003DF219 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		3F3BDB3429111719005956DB /* LBTAChatAppFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				3FDA08B1293F87D8003DF219 /* Model */,
 				3F7610CB293CCDBE00665A75 /* Utils */,
 				3F2990E62923CEC5009C571B /* MainMessages */,
 				3F3BDB3529111719005956DB /* LBTAChatAppFirebaseApp.swift */,
@@ -101,6 +104,14 @@
 				3F7610CC293CCDD200665A75 /* FirebaseManager.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3FDA08B1293F87D8003DF219 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FDA08B2293F87E7003DF219 /* ChatUser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDA08B3293F87E7003DF219 /* ChatUser.swift in Sources */,
 				3F37210A291D4B0800D58464 /* ImagePicker.swift in Sources */,
 				3F2990EA2923CF0F009C571B /* MainMessagesView.swift in Sources */,
 				3F7610CD293CCDD200665A75 /* FirebaseManager.swift in Sources */,
