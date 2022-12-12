@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F06334929472CBD0046D7F3 /* ChatLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06334829472CBD0046D7F3 /* ChatLogView.swift */; };
 		3F2990EA2923CF0F009C571B /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2990E92923CF0F009C571B /* MainMessagesView.swift */; };
 		3F37210A291D4B0800D58464 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F372109291D4B0800D58464 /* ImagePicker.swift */; };
 		3F3BDB3629111719005956DB /* LBTAChatAppFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BDB3529111719005956DB /* LBTAChatAppFirebaseApp.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F06334829472CBD0046D7F3 /* ChatLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogView.swift; sourceTree = "<group>"; };
 		3F2990E92923CF0F009C571B /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
 		3F372109291D4B0800D58464 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		3F3BDB3229111719005956DB /* LBTAChatAppFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBTAChatAppFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,9 +54,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F06334729472CB20046D7F3 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				3F06334829472CBD0046D7F3 /* ChatLogView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		3F2990E62923CEC5009C571B /* MainMessages */ = {
 			isa = PBXGroup;
 			children = (
+				3F06334729472CB20046D7F3 /* Chat */,
 				3F602027294444F900075600 /* NewMessage */,
 				3F2990E92923CF0F009C571B /* MainMessagesView.swift */,
 			);
@@ -207,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FDA08B3293F87E7003DF219 /* ChatUser.swift in Sources */,
+				3F06334929472CBD0046D7F3 /* ChatLogView.swift in Sources */,
 				3F37210A291D4B0800D58464 /* ImagePicker.swift in Sources */,
 				3F2990EA2923CF0F009C571B /* MainMessagesView.swift in Sources */,
 				3F7610CD293CCDD200665A75 /* FirebaseManager.swift in Sources */,
